@@ -1,0 +1,567 @@
+*{margin: 0; padding: 0;}
+ul {list-style: none;}
+a{text-decoration: none;}
+
+
+/*头部*/
+.head{
+	height: 136px;
+	width: 100%;
+	background-color: #000000;
+
+}
+.head a{
+	cursor: pointer;
+}
+.logo{
+	margin-left: 30%;
+	float: left;
+}
+.logo img{
+	margin-top: 40px;
+}
+
+.nav{
+	float: right;
+	color: #e25520;
+	margin-right: 20%;
+	line-height: 136px;
+	font-size: 18px;
+	text-align: center;
+}
+.nav ul li{
+	float: left;
+	width: 80px;
+}
+
+.fixRight{
+	position: fixed;
+	color: yellow;
+	right: 20px;
+	top:400px;
+}
+
+.chat a{
+	background-image: url(../img/chat.png);
+	height: 40px;
+	width: 40px;
+	display:block;
+}
+.chat a:hover{
+	background-image: url(../img/chatactive.png);
+	height: 40px;
+	width: 40px;
+	display:block;
+	cursor: pointer;
+}
+.ma{
+	position: absolute;
+	display: none;
+	top: -38px;
+    left: -118px;
+	
+}
+.phone a{
+	background-image: url(../img/phone.png);
+	height: 40px;
+	width: 40px;
+	display:block;
+}
+.phone a:hover{
+	background-image: url(../img/phoneac.png);
+	height: 40px;
+	width: 40px;
+	display:block;
+	cursor: pointer;
+}
+
+.tel{
+	position: absolute;
+	display: none;
+	top: 72px;
+    left: -118px;
+	
+}
+
+.shang a{
+	background-image: url(../img/shang.png);
+	height: 40px;
+	width: 40px;
+	display:block;
+}
+.shang a:hover{
+	background-image: url(../img/shangac.png);
+	height: 40px;
+	width: 40px;
+	display:block;
+	cursor: pointer;
+}
+
+
+.customer{
+	background-image: url(../img/khbj.jpg);
+	height: 900px;
+	width: 100%;
+}
+
+.img109{
+	width: 907px;
+	height: 40px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+
+.img{
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 40px;
+	height: 160px;
+}
+.imgli2{
+	width: 900px;
+	margin: 0 auto;
+	height: 160px;
+}
+.img1 a{
+	background-image: url(../img/logo03.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 40px;
+	display:block;
+}
+.img1 a:hover{
+	background-image: url(../img/cai1.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 40px;
+	display:block;
+}
+.img2 a{
+	background-image: url(../img/logo05.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img2 a:hover{
+	background-image: url(../img/cai2.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img3 a{
+	background-image: url(../img/logo07.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img3 a:hover{
+	background-image: url(../img/cai3.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img4 a{
+	background-image: url(../img/logo09.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img4 a:hover{
+	background-image: url(../img/cai4.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img5 a{
+	background-image: url(../img/logo11.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img5 a:hover{
+	background-image: url(../img/cai5.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+
+.img6 a{
+	background-image: url(../img/hei1.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 40px;
+}
+.img6 a:hover{
+	background-image: url(../img/LOGO切片_18.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 40px;
+}
+.img7 a{
+	background-image: url(../img/hei2.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img7 a:hover{
+	background-image: url(../img/LOGO切片_19.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img8 a{
+	background-image: url(../img/hei3.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img8 a:hover{
+	background-image: url(../img/LOGO切片_20.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+
+.img9 a{
+	background-image: url(../img/hei4.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img9 a:hover{
+	background-image: url(../img/LOGO切片_21.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img10 a{
+	background-image: url(../img/hei5.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img10 a:hover{
+	background-image: url(../img/LOGO切片_22.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+
+.img11 a{
+	background-image: url(../img/LOGO切片黑白_31.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 40px;
+}
+.img11 a:hover{
+	background-image: url(../img/LOGO切片_28.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 40px;
+}
+.img12 a{
+	background-image: url(../img/LOGO切片黑白_32.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img12 a:hover{
+	background-image: url(../img/LOGO切片_29.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img13 a{
+	background-image: url(../img/LOGO切片黑白_33.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img13 a:hover{
+	background-image: url(../img/LOGO切片_30.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+
+.img14 a{
+	background-image: url(../img/LOGO切片黑白_34.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img14 a:hover{
+	background-image: url(../img/LOGO切片_31.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img15 a{
+	background-image: url(../img/LOGO切片黑白_29.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img15 a:hover{
+	background-image: url(../img/LOGO切片_32.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+
+.img16 a{
+	background-image: url(../img/LOGO切片黑白_40.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+margin-left: 40px;
+}
+.img16 a:hover{
+	background-image: url(../img/LOGO切片_38.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 40px;
+}
+.img17 a{
+	background-image: url(../img/LOGO切片黑白_41.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img17 a:hover{
+	background-image: url(../img/LOGO切片_39.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img18 a{
+	background-image: url(../img/LOGO切片黑白_42.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img18 a:hover{
+	background-image: url(../img/LOGO切片_40.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+
+.img19 a{
+	background-image: url(../img/LOGO切片黑白_43.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img19 a:hover{
+	background-image: url(../img/LOGO切片_41.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img20 a{
+	background-image: url(../img/LOGO切片黑白_45.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+.img20 a:hover{
+	background-image: url(../img/LOGO切片_42.png);
+	height: 157px;
+	width: 157px;
+	float: left;
+	margin-left: 5px;
+}
+
+
+.case{
+	background-image: url(../img/casebj.jpg);
+	height: 2500px;
+	width:100%;
+}
+
+/* 水平居中 */
+.rowCenter{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+/* 垂直居中 */
+.lineCenter{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* 水平垂直居中 */
+.RLCenter{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.dreamWrap{
+	width: 71%;
+	height: 355px;
+	margin: 150px 0;
+	background: url(../img/_编组_.png) center top no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.dreamWrap .greenBg{
+	width: 95%;
+	height: 90%;
+	background: url(../img/_矩形_1.png) center top no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 22px;
+	top: -320px;
+	opacity: 0;
+	/* top: 18px; */
+}
+.dreamWrap .text{
+	width: 90%;
+	height: 75%;
+	background: url(../img/text.png) center top no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 42px;
+	top: 45px;
+	z-index: 2;
+	/* border: 1px solid #000; */
+}
+.preformance{
+	padding-top: 100px;
+
+}
+.preformanceHeader{
+	width: 60%;
+	height: 355px;
+	background: url(../img/2018.5.22_31.png) center top no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.preformanceHeader .comma{
+	width: 92px;
+	height: 102px;
+	background: url(../img/2018.5.21切片文件_36.png) center top no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: -45px;
+	top: -50px;
+}
+.preformanceHeader .text{
+	width: 50%;
+	height: 60%;
+	background: url(../img/text_2.png) center top no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 205px;
+	top: 40px;
+	z-index: 2;
+}
+.preformanceHeader .greenBg{
+	width: 83%;
+	height: 80%;
+	background: url(../img/_矩形_2.png) center top no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 83px;
+	top: 355px;
+	/* top: -30px; */
+	opacity: 0;
+}
+.aboutHeader{
+	width: 906px;
+	height: 466px;
+	background: url(../img/2018.5.21切片文件_46.png) center top no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.aboutHeader .comma{
+	width: 180px;
+	height: 224px;
+	background: url(../img/2018.5.21切片文件_141.png) center top no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: -212px;
+	bottom: 50px;
+}
+.aboutHeader .text{
+	width: 65%;
+	height: 30%;
+	background: url(../img/text_3.png) center top no-repeat;
+	background-size: contain;
+	position: absolute;
+	right: 40px;
+	top: 200px;
+	z-index: 2;
+}
+.aboutHeader .greenBg{
+	width: 83%;
+	height: 55%;
+	background: url(../img/_矩形_3.png) center top no-repeat;
+	background-size: cover;
+	position: absolute;
+	/* right: 0; */
+	right: 900px;
+	top: 106px;
+	opacity: 0;
+}
+
+.casecenter{
+	width: 1000px;
+	height: 1500px;
+	margin-top: 40px;
+	margin-left: 28%;
+}
+
+.imgtop{
+	position: relative;
+}
+
+.left{
+	width: 400px;
+	margin-top: 110px;
+}
