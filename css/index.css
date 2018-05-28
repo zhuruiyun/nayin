@@ -443,14 +443,14 @@ margin-left: 40px;
 	width: 71%;
 	height: 355px;
 	margin: 150px 0;
-	background: url(../img/_编组_.png) center top no-repeat;
+	background: url(../img/bz.png) center top no-repeat;
 	background-size: cover;
 	position: relative;
 }
 .dreamWrap .greenBg{
 	width: 95%;
 	height: 90%;
-	background: url(../img/_矩形_1.png) center top no-repeat;
+	background: url(../img/jx1.png) center top no-repeat;
 	background-size: cover;
 	position: absolute;
 	left: 22px;
@@ -502,7 +502,7 @@ margin-left: 40px;
 .preformanceHeader .greenBg{
 	width: 83%;
 	height: 80%;
-	background: url(../img/_矩形_2.png) center top no-repeat;
+	background: url(../img/jx1.png) center top no-repeat;
 	background-size: cover;
 	position: absolute;
 	left: 83px;
@@ -541,7 +541,7 @@ margin-left: 40px;
 .aboutHeader .greenBg{
 	width: 83%;
 	height: 55%;
-	background: url(../img/_矩形_3.png) center top no-repeat;
+	background: url(../img/jx3.png) center top no-repeat;
 	background-size: cover;
 	position: absolute;
 	/* right: 0; */
